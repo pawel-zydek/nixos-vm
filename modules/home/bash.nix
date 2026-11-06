@@ -4,7 +4,7 @@
     enableCompletion = true;
 
     shellAliases = {
-      rebuild = "sudo nixos-rebuild switch --flake ~/nixos-config";
+      rebuild = "sudo nixos-rebuild switch --flake ~/nixos-vm";
     };
 
     historyControl = [ "ignoredups" "ignorespace" ];  # bez duplikatów, spacja na początku = nie zapisuj

@@ -1,10 +1,7 @@
-{ pkgs, ... }:
+{ ... }:
 {
   programs.firefox = {
     enable = true;
-
-    # Natywne programy, z którymi rozmawiają rozszerzenia (np. Integracja przeglądarki Plazmy)
-    nativeMessagingHosts = [ pkgs.kdePackages.plasma-browser-integration ];
 
     languagePacks = [ "pl" ];
 

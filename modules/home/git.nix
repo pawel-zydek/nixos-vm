@@ -10,7 +10,7 @@
       };
       pull.rebase = true;
       init.defaultBranch = "main";
-      # token trzymany w KWallet zamiast jawnym tekstem w ~/.git-credentials
+      # token trzymany w GNOME Keyring zamiast jawnym tekstem w ~/.git-credentials
       credential.helper = "libsecret";
     };
   };
