@@ -46,17 +46,6 @@
           ./hosts/vm
         ];
       };
-      nixos-pg = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          disko.nixosModules.disko
-          home-manager.nixosModules.home-manager
-          homeModule
-          ./modules/common.nix
-          ./modules/disko-zfs.nix
-          ./hosts/pg
-        ];
-      };
     };
   };
 }
